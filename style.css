@@ -1,0 +1,44 @@
+*
+h2.line1::before{
+    content:"Mr. Trump" url(https://en.wikipedia.org/wiki/Donald_Trump);
+    color: brown;
+}
+h2.line2::before{
+    content: "He";
+    color: brown;
+}
+#fname{
+    font-size: large;
+}
+#lname{
+    font-size: large;
+}
+#email{
+    font-size: large;
+}
+#fname:focus{
+    background: rgb(216, 234, 236);
+    font-weight: bold;
+    font-size: large;
+    
+}
+#lname:focus{
+    background: rgb(216, 234, 236);
+    font-weight: bold;
+    font-size: large;
+}
+#email:focus{
+    background: rgb(216, 234, 236);
+    font-weight: bold;
+    font-size: large;
+}
+#submit{
+    font-size: 24px;
+}
+div.info{
+    color: rgb(255, 30, 0);
+    font-size: 25px;
+}
+a:visited{
+    color: rgb(130, 3, 248);
+}
